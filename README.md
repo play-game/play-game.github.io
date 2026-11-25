@@ -5,4 +5,4 @@
 - [活动网站](https://play-game.github.io/)
 - [竺院团学汇活动推文](https://mp.weixin.qq.com/s/vHoDvz5wwriKgACFwJHipg)
 
-页面采用静态 HTML、CSS 和 JavaScript，海报与二维码保存在 `assets/`。本地打开 `index.html` 即可预览。
+页面采用静态 HTML 和 CSS，活动海报与织机插画保存在 `assets/`。本地打开 `index.html` 即可预览。
