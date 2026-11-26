@@ -54,6 +54,8 @@ h1 { margin: 0; font: 900 clamp(3.4rem, 5.95vw, 5.85rem)/1.15 "Campaign Serif", 
 h1 > span, h1 > em { display: block; white-space: nowrap; }
 h1 > em { font-style: normal; color: var(--red); }
 .hosts { display: flex; align-items: center; gap: .7rem; margin: 1.5rem 0 .55rem; font-size: clamp(1.15rem, 1.55vw, 1.4rem); font-weight: 740; letter-spacing: .065em; }
+.hosts a { text-decoration: underline; text-decoration-color: #a6aca3; text-decoration-thickness: 1px; text-underline-offset: .23em; }
+.hosts a:hover, .participants a:hover { color: var(--red); text-decoration-color: currentColor; }
 .hosts b { font: 500 1.15em Georgia, serif; color: var(--red); }
 .invitation { margin: 0; max-width: 26em; font-size: 1rem; line-height: 1.9; color: #42545b; }
 .hero-actions { display: flex; align-items: center; gap: 1.65rem; margin-top: 1.7rem; }
@@ -69,12 +71,15 @@ h1 > em { font-style: normal; color: var(--red); }
   border-block: 1px solid var(--line);
   background: rgb(250 241 221 / 93%);
 }
-.fact-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-block: 0; padding-block: 1.6rem; }
+.fact-grid { display: grid; grid-template-columns: .88fr .96fr 1.48fr; margin-block: 0; padding-block: 1.6rem; }
 .fact-grid > div { padding-inline: clamp(1rem, 3.4vw, 3.5rem); border-left: 1px solid #c3c6b7; }
 .fact-grid > div:first-child { padding-left: 0; border: 0; }
 .fact-grid dt { color: #49606a; font-size: .85rem; letter-spacing: .16em; }
 .fact-grid dd { margin: .3rem 0 0; font-size: clamp(1.06rem, 1.65vw, 1.42rem); font-weight: 730; line-height: 1.55; }
 .fact-grid small { display: block; font-size: .94rem; font-weight: 500; }
+.fact-grid > .participants { padding-right: 0; }
+.fact-grid .participants dd { display: block; font-size: clamp(.92rem, 1.22vw, 1.05rem); font-weight: 500; line-height: 1.65; }
+.participants a { font-weight: 680; text-decoration: underline; text-decoration-color: #8e9e9d; text-underline-offset: .23em; margin-right: .35em; }
 .credits {
   border-top: 1px solid rgb(111 90 62 / 38%);
   background-color: rgb(220 201 169 / 20%);
@@ -117,8 +122,6 @@ h1 > em { font-style: normal; color: var(--red); }
   .fact-grid { grid-template-columns: 1fr 1fr; padding-block: 1.1rem; gap: .95rem 0; }
   .fact-grid > div { padding-inline: .9rem; }
   .fact-grid > div:last-child { grid-column: 1/-1; padding: .8rem 0 0; border-left: 0; border-top: 1px solid #d4d3c5; }
-  .fact-grid > div:last-child dd, .fact-grid > div:last-child small { display: inline; }
-  .fact-grid > div:last-child small { margin-left: .5rem; }
   .fact-grid dt { margin-bottom: .15rem; }
   .credit-inner dl { flex-direction: column; gap: 1rem; }
   .credit-inner { gap: 1.7rem; }
