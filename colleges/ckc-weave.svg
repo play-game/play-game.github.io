@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 940" preserveAspectRatio="none" fill="none">
+  <defs>
+    <path id="blue-1" d="M 1048 -69
+       C 982 84 1328 76 1330 206
+       C 1334 329 974 338 1062 499
+       C 1136 635 1462 669 1318 848
+       C 1257 923 1104 949 1069 994"/>
+    <path id="red-1" d="M 1387 -69
+       C 1381 79 1046 135 1047 283
+       C 1049 430 1393 458 1371 603
+       C 1355 713 1100 763 1139 867
+       C 1164 934 1277 949 1333 1009"/>
+    <clipPath id="over-1">
+      <circle cx="1100.4" cy="373.7" r="66.3"/>
+      <circle cx="1197.7" cy="926.2" r="66.3"/>
+    </clipPath>
+  </defs>
+  <use href="#blue-1" stroke="#01a0ec" stroke-width="39"/>
+  <use href="#red-1" stroke="#fd021e" stroke-width="28"/>
+  <use href="#blue-1" stroke="#01a0ec" stroke-width="39" clip-path="url(#over-1)"/>
+</svg>

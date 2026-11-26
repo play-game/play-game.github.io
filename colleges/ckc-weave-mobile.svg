@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1060" preserveAspectRatio="none" fill="none">
+  <view id="crest" viewBox="0 170 390 215" preserveAspectRatio="none"/>
+  <view id="body" viewBox="0 385 390 675" preserveAspectRatio="none"/>
+  <defs>
+    <path id="blue-1" d="M 285 -29
+       C 325 -18 338 47 399 48"/>
+    <path id="red-1" d="M 309 -24
+       C 317 35 371 18 401 3"/>
+    <path id="blue-2" d="M -34 263
+       C 30 274 77 345 145 312
+       C 203 283 209 213 271 215
+       C 337 218 347 312 423 279"/>
+    <path id="red-2" d="M -39 344
+       C 18 342 31 267 85 245
+       C 157 214 192 307 255 320
+       C 315 331 365 244 420 245"/>
+    <clipPath id="over-2">
+      <circle cx="186.6" cy="277.3" r="30.6"/>
+    </clipPath>
+    <path id="blue-3" d="M -29 993
+       C 43 996 53 1054 111 1060
+       C 158 1065 223 1019 275 1029
+       C 303 1034 330 1066 364 1083"/>
+    <path id="red-3" d="M -30 1074
+       C 30 1011 87 1011 142 1036
+       C 190 1059 223 1066 271 1052
+       C 309 1040 354 1002 412 1002"/>
+    <clipPath id="over-3">
+      <circle cx="172.3" cy="1049.0" r="30.6"/>
+    </clipPath>
+  </defs>
+  <use href="#blue-1" stroke="#01a0ec" stroke-width="18"/>
+  <use href="#red-1" stroke="#fd021e" stroke-width="13"/>
+  <use href="#blue-2" stroke="#01a0ec" stroke-width="18"/>
+  <use href="#red-2" stroke="#fd021e" stroke-width="13"/>
+  <use href="#blue-2" stroke="#01a0ec" stroke-width="18" clip-path="url(#over-2)"/>
+  <use href="#blue-3" stroke="#01a0ec" stroke-width="18"/>
+  <use href="#red-3" stroke="#fd021e" stroke-width="13"/>
+  <use href="#blue-3" stroke="#01a0ec" stroke-width="18" clip-path="url(#over-3)"/>
+</svg>

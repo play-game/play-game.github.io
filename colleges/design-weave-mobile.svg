@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1060" preserveAspectRatio="none" fill="none">
+  <view id="crest" viewBox="0 170 390 215" preserveAspectRatio="none"/>
+  <view id="body" viewBox="0 385 390 675" preserveAspectRatio="none"/>
+  <defs>
+    <path id="blue-1" d="M -28 -5
+       C 17 36 92 46 143 22
+       C 179 5 205 -18 233 -23"/>
+    <path id="red-1" d="M -29 40
+       C 40 40 67 7 116 1
+       C 168 -5 179 10 206 -11"/>
+    <clipPath id="over-1">
+      <circle cx="182.5" cy="0.1" r="20.4"/>
+    </clipPath>
+    <path id="blue-2" d="M -34 287
+       C 14 307 65 319 108 300
+       C 162 277 179 235 132 228
+       C 75 219 35 251 55 279
+       C 81 318 177 323 248 288
+       C 312 257 351 232 421 239"/>
+    <path id="red-2" d="M -38 228
+       C 24 226 78 260 134 289
+       C 203 323 297 341 349 306
+       C 402 269 342 225 303 243
+       C 263 260 273 286 306 309
+       C 335 329 381 341 421 330"/>
+    <clipPath id="over-2">
+      <circle cx="55.0" cy="248.9" r="20.4"/>
+      <circle cx="277.1" cy="273.6" r="20.4"/>
+    </clipPath>
+    <path id="blue-3" d="M -12 1064
+       C 52 1060 76 1026 149 1019
+       C 214 1013 243 1055 290 1056
+       C 348 1058 375 1012 416 1008"/>
+    <path id="red-3" d="M -21 1017
+       C 33 1009 82 1030 128 1044
+       C 162 1056 221 1064 257 1037
+       C 302 1005 331 1005 414 1034"/>
+    <clipPath id="over-3">
+      <circle cx="245.7" cy="1044.0" r="20.4"/>
+    </clipPath>
+  </defs>
+  <use href="#blue-1" stroke="#01a0ec" stroke-width="12"/>
+  <use href="#red-1" stroke="#fd021e" stroke-width="11"/>
+  <use href="#blue-1" stroke="#01a0ec" stroke-width="12" clip-path="url(#over-1)"/>
+  <use href="#blue-2" stroke="#01a0ec" stroke-width="12"/>
+  <use href="#red-2" stroke="#fd021e" stroke-width="11"/>
+  <use href="#blue-2" stroke="#01a0ec" stroke-width="12" clip-path="url(#over-2)"/>
+  <use href="#blue-3" stroke="#01a0ec" stroke-width="12"/>
+  <use href="#red-3" stroke="#fd021e" stroke-width="11"/>
+  <use href="#blue-3" stroke="#01a0ec" stroke-width="12" clip-path="url(#over-3)"/>
+</svg>
